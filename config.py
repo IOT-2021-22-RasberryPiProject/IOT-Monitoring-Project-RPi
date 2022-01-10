@@ -26,7 +26,10 @@ config_data = {
     'broker_ip': '192.168.0.192',
     'topic': 'monitoring/frame',
     'camera_id': 0,
-    'frame_size': (240, 240)
+    'frame_size': (224, 224),
+    'latence': 0.00,
+    'grayscale': False,
+    'reverse': True
 }
 
 
