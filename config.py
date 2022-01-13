@@ -36,8 +36,8 @@ config_data = {
 CONFIG = AttributeDict(config_data)
 
 if __name__ == '__main__':
-    a = AttributeDict({'Duk': 'nic'})
-    a['Dupa'] = 'woda'
-    a.nic = 20
+    a = AttributeDict({'A': '1'})
+    a['B'] = '2'
+    a.C = 20
     print(a.items())
 
